@@ -1,0 +1,141 @@
+{
+  "question": "Can Ember's published electricity generation series for Nigeria be used as a measure of electricity output, once it is checked against the EIA series Ember says it comes from, against Ember's own capacity figures, against NERC's grid statistics, and against the captive generation those grid statistics leave out?",
+  "owid_version": "2026-09-10",
+  "owid_page": "https://catalog.ourworldindata.org/energy/owid_energy/",
+  "first_year_ember_eia_gap_above_0_05_twh": 2019,
+  "year_2015_ember_twh": 33.17,
+  "year_2015_eia_twh": 33.167,
+  "year_2024": {
+    "ember_twh": 39.306,
+    "eia_twh": 40.836,
+    "owid_twh": 37.56,
+    "nerc_twh": 37.094,
+    "ember_minus_eia_twh": -1.53,
+    "ember_minus_eia_pct": -3.75,
+    "kwh_per_person_ember": 168.9,
+    "kwh_per_person_nerc": 159.4,
+    "population": 232679482.0
+  },
+  "year_2025": {
+    "ember_twh": 45.561,
+    "eia_twh": 42.702,
+    "owid_twh": 41.54,
+    "nerc_twh": 39.209,
+    "ember_minus_eia_twh": 2.859,
+    "ember_minus_nerc_twh": 6.352
+  },
+  "solar": {
+    "2019": {
+      "ember_twh": 0.147,
+      "capacity_gw": 0.05,
+      "capacity_factor": 0.336,
+      "eia_twh": 0.054,
+      "owid_twh": 0.05
+    },
+    "2021": {
+      "ember_twh": 0.514,
+      "capacity_gw": 0.1,
+      "capacity_factor": 0.587,
+      "eia_twh": 0.102,
+      "owid_twh": 0.1
+    },
+    "2023": {
+      "ember_twh": 1.099,
+      "capacity_gw": 0.17,
+      "capacity_factor": 0.738,
+      "eia_twh": 0.232,
+      "owid_twh": 0.11
+    },
+    "2024": {
+      "ember_twh": 1.876,
+      "capacity_gw": 0.23,
+      "capacity_factor": 0.929,
+      "eia_twh": 0.268,
+      "owid_twh": 0.13
+    },
+    "2025": {
+      "ember_twh": 3.184,
+      "capacity_gw": 0.28,
+      "capacity_factor": 1.298,
+      "eia_twh": 0.376,
+      "owid_twh": 0.13
+    }
+  },
+  "nerc_2025_quarterly_sum_gwh": 39193.93,
+  "nerc_2025_annual_gwh": 39208.68,
+  "nerc_2025_annual_minus_quarters_gwh": 14.75,
+  "max_abs_ember_identity_gap_twh": 0.0,
+  "max_abs_eia_identity_gap_twh": 0.0,
+  "monthly_2024_total_twh": 33.611,
+  "west_africa_2024_largest_shortfall": [
+    {
+      "country": "Cabo Verde",
+      "ember_minus_eia_pct": -44.252873563218394,
+      "ember_twh": 0.485,
+      "eia_twh": 0.87
+    },
+    {
+      "country": "Niger",
+      "ember_minus_eia_pct": -25.829973048074724,
+      "ember_twh": 1.065,
+      "eia_twh": 1.43589
+    },
+    {
+      "country": "Cote d'Ivoire",
+      "ember_minus_eia_pct": -20.74276666186843,
+      "ember_twh": 11.012,
+      "eia_twh": 13.894
+    }
+  ],
+  "west_africa_2024_solar_cf_above_50pct": [
+    {
+      "country": "Benin",
+      "solar_capacity_factor": 0.6574453551912568,
+      "solar_twh": 0.231,
+      "solar_capacity_gw": 0.04
+    },
+    {
+      "country": "Cote d'Ivoire",
+      "solar_capacity_factor": 0.6887522768670309,
+      "solar_twh": 0.242,
+      "solar_capacity_gw": 0.04
+    },
+    {
+      "country": "Guinea",
+      "solar_capacity_factor": 0.5806010928961748,
+      "solar_twh": 0.102,
+      "solar_capacity_gw": 0.02
+    },
+    {
+      "country": "Nigeria",
+      "solar_capacity_factor": 0.9285657717589291,
+      "solar_twh": 1.876,
+      "solar_capacity_gw": 0.23
+    },
+    {
+      "country": "Senegal",
+      "solar_capacity_factor": 0.519041354651555,
+      "solar_twh": 1.231,
+      "solar_capacity_gw": 0.27
+    },
+    {
+      "country": "Sierra Leone",
+      "solar_capacity_factor": 0.5862932604735883,
+      "solar_twh": 0.103,
+      "solar_capacity_gw": 0.02
+    }
+  ],
+  "access_to_electricity": {
+    "indicator": "EG.ELC.ACCS.ZS",
+    "name": "Access to electricity (% of population)",
+    "year": 2024,
+    "value_percent": 62.5,
+    "lastupdated": "2026-11-11",
+    "url": "https://api.worldbank.org/v2/country/NGA/indicator/EG.ELC.ACCS.ZS?format=json"
+  },
+  "hydro_2024": {
+    "nerc_twh": 11.47,
+    "ember_twh": 9.2,
+    "eia_twh": 10.782
+  }
+}

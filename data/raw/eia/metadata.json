@@ -1,0 +1,602 @@
+{
+  "@type": "Catalog",
+  "title": "International Energy Statistics (IES)",
+  "description": "Energy production and consumption statistics by fuel and country",
+  "publisher": {
+    "@type": "Agent",
+    "name": "Energy Information Administration"
+  },
+  "contactPoint": [
+    {
+      "@type": "Kind",
+      "fn": "EIA International",
+      "hasEmail": "mailto:eiainfointernational@eia.gov"
+    }
+  ],
+  "keyword": [
+    "international",
+    "ies"
+  ],
+  "language": [
+    "en"
+  ],
+  "conformsTo": {
+    "@type": "Standard",
+    "title": "DCAT-US 3.0"
+  },
+  "modified": "2026-11-19T15:23:26Z",
+  "homepage": {
+    "@type": "Document",
+    "title": "International Energy Statistics (IES)",
+    "accessURL": "https://www.eia.gov/international/data/"
+  },
+  "dataset": [
+    {
+      "@type": "Dataset",
+      "identifier": "biofuels_annual",
+      "title": "Biofuels",
+      "description": "Biofuels - Annual.",
+      "contactPoint": {
+        "@type": "Kind",
+        "fn": "EIA International",
+        "hasEmail": "mailto:eiainfointernational@eia.gov"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Energy Information Administration"
+      },
+      "keyword": [
+        "international",
+        "ies",
+        "biofuels",
+        "ethanol",
+        "biodiesel"
+      ],
+      "distribution": [
+        {
+          "@type": "Distribution",
+          "title": "biofuels_annual.csv",
+          "description": "Biofuels in CSV format.",
+          "mediaType": "text/csv",
+          "format": "CSV",
+          "characterEncoding": [
+            "UTF-8"
+          ],
+          "byteSize": "30719809",
+          "checksum": {
+            "@type": "Checksum",
+            "algorithm": "SHA-256",
+            "checksumValue": "8330b4735807d8d9664a8a750ab71737d671b8391a30dc352f248c26eda821d7"
+          },
+          "modified": "2026-11-19T15:22:41Z",
+          "downloadURL": "https://www.eia.gov/international/data/csv/biofuels_annual.csv",
+          "accessURL": "https://www.eia.gov/international/data/"
+        }
+      ],
+      "modified": "2026-11-18T12:56:36Z",
+      "temporal": [
+        {
+          "@type": "PeriodOfTime",
+          "startDate": "1980-01-01",
+          "endDate": "2024-01-01"
+        }
+      ],
+      "accrualPeriodicity": "annual",
+      "landingPage": {
+        "@type": "Document",
+        "title": "Biofuels",
+        "accessURL": "https://www.eia.gov/international/data/"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "identifier": "emissions_annual",
+      "title": "CO2 emissions",
+      "description": "CO2 emissions - Annual.",
+      "contactPoint": {
+        "@type": "Kind",
+        "fn": "EIA International",
+        "hasEmail": "mailto:eiainfointernational@eia.gov"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Energy Information Administration"
+      },
+      "keyword": [
+        "international",
+        "ies",
+        "co2",
+        "carbon dioxide",
+        "emissions"
+      ],
+      "distribution": [
+        {
+          "@type": "Distribution",
+          "title": "emissions_annual.csv",
+          "description": "CO2 emissions in CSV format.",
+          "mediaType": "text/csv",
+          "format": "CSV",
+          "characterEncoding": [
+            "UTF-8"
+          ],
+          "byteSize": "6591394",
+          "checksum": {
+            "@type": "Checksum",
+            "algorithm": "SHA-256",
+            "checksumValue": "b4550caa1fdf006a0e7ecc68ff8d42beddca0b63acf88fae1ade97f08c508cf3"
+          },
+          "modified": "2026-11-18T15:22:30Z",
+          "downloadURL": "https://www.eia.gov/international/data/csv/emissions_annual.csv",
+          "accessURL": "https://www.eia.gov/international/data/"
+        }
+      ],
+      "modified": "2026-03-26T16:49:52Z",
+      "temporal": [
+        {
+          "@type": "PeriodOfTime",
+          "startDate": "1949-01-01",
+          "endDate": "2024-01-01"
+        }
+      ],
+      "accrualPeriodicity": "annual",
+      "landingPage": {
+        "@type": "Document",
+        "title": "CO2 emissions",
+        "accessURL": "https://www.eia.gov/international/data/"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "identifier": "coal-prod_annual",
+      "title": "Coal and coke production and consumption",
+      "description": "Coal and coke, production and consumption - Annual",
+      "contactPoint": {
+        "@type": "Kind",
+        "fn": "EIA International",
+        "hasEmail": "mailto:eiainfointernational@eia.gov"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Energy Information Administration"
+      },
+      "keyword": [
+        "international",
+        "ies",
+        "coal",
+        "coke",
+        "production",
+        "consumption"
+      ],
+      "distribution": [
+        {
+          "@type": "Distribution",
+          "title": "coal-prod_annual.csv",
+          "description": "Coal and coke production and consumption in CSV format.",
+          "mediaType": "text/csv",
+          "format": "CSV",
+          "characterEncoding": [
+            "UTF-8"
+          ],
+          "byteSize": "96255504",
+          "checksum": {
+            "@type": "Checksum",
+            "algorithm": "SHA-256",
+            "checksumValue": "c1cb50e325cf589a22ecaf1756b51a001c330361f04253f06640882157e70fb8"
+          },
+          "modified": "2026-11-18T15:22:34Z",
+          "downloadURL": "https://www.eia.gov/international/data/csv/coal-prod_annual.csv",
+          "accessURL": "https://www.eia.gov/international/data/"
+        }
+      ],
+      "modified": "2026-11-17T13:12:46Z",
+      "temporal": [
+        {
+          "@type": "PeriodOfTime",
+          "startDate": "1980-01-01",
+          "endDate": "2025-01-01"
+        }
+      ],
+      "accrualPeriodicity": "annual",
+      "landingPage": {
+        "@type": "Document",
+        "title": "Coal and coke production and consumption",
+        "accessURL": "https://www.eia.gov/international/data/"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "identifier": "coal-trade_annual",
+      "title": "Coal and coke trade and reserves",
+      "description": "Coal and coke, trade and reserves - Annual",
+      "contactPoint": {
+        "@type": "Kind",
+        "fn": "EIA International",
+        "hasEmail": "mailto:eiainfointernational@eia.gov"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Energy Information Administration"
+      },
+      "keyword": [
+        "international",
+        "ies",
+        "coal",
+        "coke",
+        "trade",
+        "reserves"
+      ],
+      "distribution": [
+        {
+          "@type": "Distribution",
+          "title": "coal-trade_annual.csv",
+          "description": "Coal and coke trade and reserves in CSV format.",
+          "mediaType": "text/csv",
+          "format": "CSV",
+          "characterEncoding": [
+            "UTF-8"
+          ],
+          "byteSize": "93852556",
+          "checksum": {
+            "@type": "Checksum",
+            "algorithm": "SHA-256",
+            "checksumValue": "292f9b41a55ed17436109ca38038ea26f733f1d8bc96842629bb53b03a095f31"
+          },
+          "modified": "2026-11-18T15:22:39Z",
+          "downloadURL": "https://www.eia.gov/international/data/csv/coal-trade_annual.csv",
+          "accessURL": "https://www.eia.gov/international/data/"
+        }
+      ],
+      "modified": "2026-11-17T13:16:54Z",
+      "temporal": [
+        {
+          "@type": "PeriodOfTime",
+          "startDate": "1980-01-01",
+          "endDate": "2025-01-01"
+        }
+      ],
+      "accrualPeriodicity": "annual",
+      "landingPage": {
+        "@type": "Document",
+        "title": "Coal and coke trade and reserves",
+        "accessURL": "https://www.eia.gov/international/data/"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "identifier": "electricity_annual",
+      "title": "Electricity",
+      "description": "Electricity - Annual",
+      "contactPoint": {
+        "@type": "Kind",
+        "fn": "EIA International",
+        "hasEmail": "mailto:eiainfointernational@eia.gov"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Energy Information Administration"
+      },
+      "keyword": [
+        "international",
+        "ies",
+        "electricity",
+        "power generation"
+      ],
+      "distribution": [
+        {
+          "@type": "Distribution",
+          "title": "electricity_annual.csv",
+          "description": "Electricity in CSV format.",
+          "mediaType": "text/csv",
+          "format": "CSV",
+          "characterEncoding": [
+            "UTF-8"
+          ],
+          "byteSize": "108255548",
+          "checksum": {
+            "@type": "Checksum",
+            "algorithm": "SHA-256",
+            "checksumValue": "d1830e20b062c8d67dc50c62117c5dc0fc73579ce57593c6bba77829a0b93b26"
+          },
+          "modified": "2026-11-19T15:23:12Z",
+          "downloadURL": "https://www.eia.gov/international/data/csv/electricity_annual.csv",
+          "accessURL": "https://www.eia.gov/international/data/"
+        }
+      ],
+      "modified": "2026-11-18T16:06:51Z",
+      "temporal": [
+        {
+          "@type": "PeriodOfTime",
+          "startDate": "1980-01-01",
+          "endDate": "2025-01-01"
+        }
+      ],
+      "accrualPeriodicity": "annual",
+      "landingPage": {
+        "@type": "Document",
+        "title": "Electricity",
+        "accessURL": "https://www.eia.gov/international/data/"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "identifier": "naturalgas_annual",
+      "title": "Natural gas",
+      "description": "Natural gas - Annual",
+      "contactPoint": {
+        "@type": "Kind",
+        "fn": "EIA International",
+        "hasEmail": "mailto:eiainfointernational@eia.gov"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Energy Information Administration"
+      },
+      "keyword": [
+        "international",
+        "ies",
+        "natural gas"
+      ],
+      "distribution": [
+        {
+          "@type": "Distribution",
+          "title": "naturalgas_annual.csv",
+          "description": "Natural gas in CSV format.",
+          "mediaType": "text/csv",
+          "format": "CSV",
+          "characterEncoding": [
+            "UTF-8"
+          ],
+          "byteSize": "25208880",
+          "checksum": {
+            "@type": "Checksum",
+            "algorithm": "SHA-256",
+            "checksumValue": "d8e4e93d9beb91d0af496d20cda0ce883ccea13f985e55e8e96d91cabeca7ae5"
+          },
+          "modified": "2026-11-18T15:22:51Z",
+          "downloadURL": "https://www.eia.gov/international/data/csv/naturalgas_annual.csv",
+          "accessURL": "https://www.eia.gov/international/data/"
+        }
+      ],
+      "modified": "2026-11-17T14:23:14Z",
+      "temporal": [
+        {
+          "@type": "PeriodOfTime",
+          "startDate": "1980-01-01",
+          "endDate": "2025-01-01"
+        }
+      ],
+      "accrualPeriodicity": "annual",
+      "landingPage": {
+        "@type": "Document",
+        "title": "Natural gas",
+        "accessURL": "https://www.eia.gov/international/data/"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "identifier": "petroleum_annual",
+      "title": "Petroleum (annual)",
+      "description": "Petroleum and other liquids - Annual",
+      "contactPoint": {
+        "@type": "Kind",
+        "fn": "EIA International",
+        "hasEmail": "mailto:eiainfointernational@eia.gov"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Energy Information Administration"
+      },
+      "keyword": [
+        "international",
+        "ies",
+        "petroleum",
+        "oil",
+        "liquids"
+      ],
+      "distribution": [
+        {
+          "@type": "Distribution",
+          "title": "petroleum_annual.csv",
+          "description": "Petroleum (annual) in CSV format.",
+          "mediaType": "text/csv",
+          "format": "CSV",
+          "characterEncoding": [
+            "UTF-8"
+          ],
+          "byteSize": "76064919",
+          "checksum": {
+            "@type": "Checksum",
+            "algorithm": "SHA-256",
+            "checksumValue": "6bc8a0a6ff21a3c5949a570e49601b47a3828275f52eed1708d352d8d8491241"
+          },
+          "modified": "2026-11-19T15:23:26Z",
+          "downloadURL": "https://www.eia.gov/international/data/csv/petroleum_annual.csv",
+          "accessURL": "https://www.eia.gov/international/data/"
+        }
+      ],
+      "modified": "2026-11-18T13:24:56Z",
+      "temporal": [
+        {
+          "@type": "PeriodOfTime",
+          "startDate": "1973-01-01",
+          "endDate": "2025-01-01"
+        }
+      ],
+      "accrualPeriodicity": "annual",
+      "landingPage": {
+        "@type": "Document",
+        "title": "Petroleum (annual)",
+        "accessURL": "https://www.eia.gov/international/data/"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "identifier": "petroleum_monthly",
+      "title": "Petroleum (monthly)",
+      "description": "Petroleum and other liquids - Monthly.",
+      "contactPoint": {
+        "@type": "Kind",
+        "fn": "EIA International",
+        "hasEmail": "mailto:eiainfointernational@eia.gov"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Energy Information Administration"
+      },
+      "keyword": [
+        "international",
+        "ies",
+        "petroleum",
+        "oil",
+        "liquids"
+      ],
+      "distribution": [
+        {
+          "@type": "Distribution",
+          "title": "petroleum_monthly.csv",
+          "description": "Petroleum (monthly) in CSV format.",
+          "mediaType": "text/csv",
+          "format": "CSV",
+          "characterEncoding": [
+            "UTF-8"
+          ],
+          "byteSize": "77288349",
+          "checksum": {
+            "@type": "Checksum",
+            "algorithm": "SHA-256",
+            "checksumValue": "00e031c16ae38bc06657fcd4867dd0643b7acdbb471e072c447b5221af914b0f"
+          },
+          "modified": "2026-11-18T15:23:07Z",
+          "downloadURL": "https://www.eia.gov/international/data/csv/petroleum_monthly.csv",
+          "accessURL": "https://www.eia.gov/international/data/"
+        }
+      ],
+      "modified": "2026-11-16T20:00:20Z",
+      "temporal": [
+        {
+          "@type": "PeriodOfTime",
+          "startDate": "1973-01-01",
+          "endDate": "2026-08-01"
+        }
+      ],
+      "accrualPeriodicity": "monthly",
+      "landingPage": {
+        "@type": "Document",
+        "title": "Petroleum (monthly)",
+        "accessURL": "https://www.eia.gov/international/data/"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "identifier": "petroleum_quarterly",
+      "title": "Petroleum (quarterly)",
+      "description": "Petroleum and other liquids - Quarterly",
+      "contactPoint": {
+        "@type": "Kind",
+        "fn": "EIA International",
+        "hasEmail": "mailto:eiainfointernational@eia.gov"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Energy Information Administration"
+      },
+      "keyword": [
+        "international",
+        "ies",
+        "petroleum",
+        "oil",
+        "liquids"
+      ],
+      "distribution": [
+        {
+          "@type": "Distribution",
+          "title": "petroleum_quarterly.csv",
+          "description": "Petroleum (quarterly) in CSV format.",
+          "mediaType": "text/csv",
+          "format": "CSV",
+          "characterEncoding": [
+            "UTF-8"
+          ],
+          "byteSize": "24212554",
+          "checksum": {
+            "@type": "Checksum",
+            "algorithm": "SHA-256",
+            "checksumValue": "0e2f0b7b15a4019bbdbb813bb51e930e4933d37ad8ac2d9ebd4090c4cf7a1469"
+          },
+          "modified": "2026-11-18T15:23:11Z",
+          "downloadURL": "https://www.eia.gov/international/data/csv/petroleum_quarterly.csv",
+          "accessURL": "https://www.eia.gov/international/data/"
+        }
+      ],
+      "modified": "2026-11-16T20:00:20Z",
+      "temporal": [
+        {
+          "@type": "PeriodOfTime",
+          "startDate": "1973-01-01",
+          "endDate": "2026-04-01"
+        }
+      ],
+      "accrualPeriodicity": "quarterly",
+      "landingPage": {
+        "@type": "Document",
+        "title": "Petroleum (quarterly)",
+        "accessURL": "https://www.eia.gov/international/data/"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "identifier": "primaryenergy_annual",
+      "title": "Primary energy",
+      "description": "Primary energy - Annual",
+      "contactPoint": {
+        "@type": "Kind",
+        "fn": "EIA International",
+        "hasEmail": "mailto:eiainfointernational@eia.gov"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Energy Information Administration"
+      },
+      "keyword": [
+        "international",
+        "ies",
+        "primary energy"
+      ],
+      "distribution": [
+        {
+          "@type": "Distribution",
+          "title": "primaryenergy_annual.csv",
+          "description": "Primary energy in CSV format.",
+          "mediaType": "text/csv",
+          "format": "CSV",
+          "characterEncoding": [
+            "UTF-8"
+          ],
+          "byteSize": "25693817",
+          "checksum": {
+            "@type": "Checksum",
+            "algorithm": "SHA-256",
+            "checksumValue": "7d8cab570de2d97fae04538b318cf174642af926a79838124371853c8d328d3c"
+          },
+          "modified": "2026-11-18T15:23:14Z",
+          "downloadURL": "https://www.eia.gov/international/data/csv/primaryenergy_annual.csv",
+          "accessURL": "https://www.eia.gov/international/data/"
+        }
+      ],
+      "modified": "2026-03-11T10:59:46Z",
+      "temporal": [
+        {
+          "@type": "PeriodOfTime",
+          "startDate": "1980-01-01",
+          "endDate": "2024-01-01"
+        }
+      ],
+      "accrualPeriodicity": "annual",
+      "landingPage": {
+        "@type": "Document",
+        "title": "Primary energy",
+        "accessURL": "https://www.eia.gov/international/data/"
+      }
+    }
+  ]
+}

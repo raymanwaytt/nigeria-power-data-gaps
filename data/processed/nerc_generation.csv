@@ -1,0 +1,18 @@
+year,quarter,metric,value_gwh,value_twh,boundary,file,url
+2024,,grid_generation_gwh,37093.7,37.0937,"Grid-connected plants, NESI. Annual total published by NERC.",2024-Annual-Report-1.pdf,https://nerc.gov.ng/wp-content/uploads/2025/07/2024-Annual-Report-1.pdf
+2024,,hydro_generation_gwh,11469.85,11.469850000000001,Hydropower share of the same grid total.,2024-Annual-Report-1.pdf,https://nerc.gov.ng/wp-content/uploads/2025/07/2024-Annual-Report-1.pdf
+2024,,average_available_capacity_mw,4853.69,,"Average available capacity of grid-connected plants, not nameplate.",2024-Annual-Report-1.pdf,https://nerc.gov.ng/wp-content/uploads/2025/07/2024-Annual-Report-1.pdf
+2024,,availability_factor_percent,37.43,,NERC availability factor. Implied nameplate = available / factor.,2024-Annual-Report-1.pdf,https://nerc.gov.ng/wp-content/uploads/2025/07/2024-Annual-Report-1.pdf
+2025,,grid_generation_gwh,39208.68,39.20868,"Grid-connected plants, NESI. Annual total published by NERC.",2025-Annual-Report_Pub.pdf,https://nerc.gov.ng/wp-content/uploads/2026/08/2025-Annual-Report_Pub.pdf
+2025,,hydro_generation_gwh,12804.18,12.80418,Hydropower share of the same grid total.,2025-Annual-Report_Pub.pdf,https://nerc.gov.ng/wp-content/uploads/2026/08/2025-Annual-Report_Pub.pdf
+2025,,average_available_capacity_mw,5398.33,,"Average available capacity of grid-connected plants, not nameplate.",2025-Annual-Report_Pub.pdf,https://nerc.gov.ng/wp-content/uploads/2026/08/2025-Annual-Report_Pub.pdf
+2025,,availability_factor_percent,39.62,,NERC availability factor. Implied nameplate = available / factor.,2025-Annual-Report_Pub.pdf,https://nerc.gov.ng/wp-content/uploads/2026/08/2025-Annual-Report_Pub.pdf
+2023,1.0,grid_generation_gwh,9350.24,9.35024,Quarterly grid generation published by NERC.,2023 Q1 Report_28072023_Final-2.pdf,https://nerc.gov.ng/wp-content/uploads/2023/08/2023%20Q1%20Report_28072023_Final-2.pdf
+2023,2.0,grid_generation_gwh,8867.05,8.867049999999999,Figure stated in the 2023 Q3 report as the preceding quarter. The Q2 PDF text layer could not be read reliably on its own.,NERCThirdQuarter2023Report.pdf,https://nerc.gov.ng/wp-content/uploads/2024/02/NERCThirdQuarter2023Report.pdf
+2023,3.0,grid_generation_gwh,8664.82,8.664819999999999,Quarterly grid generation published by NERC.,NERCThirdQuarter2023Report.pdf,https://nerc.gov.ng/wp-content/uploads/2024/02/NERCThirdQuarter2023Report.pdf
+2023,4.0,grid_generation_gwh,9789.87,9.78987,Quarterly grid generation published by NERC.,2023_Q4_Report_Final.pdf,https://nerc.gov.ng/wp-content/uploads/2024/04/2023_Q4_Report_Final.pdf
+2024,4.0,grid_generation_gwh,9289.95,9.289950000000001,Quarterly grid generation published by NERC.,2024_Q4-Report.pdf,https://nerc.gov.ng/wp-content/uploads/2025/03/2024_Q4-Report.pdf
+2025,1.0,grid_generation_gwh,10304.47,10.304469999999998,Quarterly grid generation published by NERC.,2025_Q1_Report.pdf,https://nerc.gov.ng/wp-content/uploads/2025/07/2025_Q1_Report.pdf
+2025,2.0,grid_generation_gwh,9830.31,9.830309999999999,Quarterly grid generation published by NERC.,2025_Q2-Report.pdf,https://nerc.gov.ng/wp-content/uploads/2025/10/2025_Q2-Report.pdf
+2025,3.0,grid_generation_gwh,9227.57,9.22757,Figure stated in the 2025 Q4 report as the preceding quarter.,2025_Q4-Report.pdf,https://nerc.gov.ng/wp-content/uploads/2026/04/2025_Q4-Report.pdf
+2025,4.0,grid_generation_gwh,9831.58,9.83158,Quarterly grid generation published by NERC.,2025_Q4-Report.pdf,https://nerc.gov.ng/wp-content/uploads/2026/04/2025_Q4-Report.pdf

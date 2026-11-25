@@ -1,0 +1,42 @@
+{
+  "download_date": "2026-11-25",
+  "note": "Slices are rows for ECOWAS countries cut from the publisher files. Full CSVs are not committed because the EIA file is over 100 MB. Re-download with python run_analysis.py --download.",
+  "files": [
+    {
+      "url": "https://files.ember-energy.org/public-downloads/generation/outputs/release_generation_yearly_global.csv",
+      "full_file": "ember_yearly_global.csv",
+      "full_bytes": 16149377,
+      "full_sha256": "43db1b75e3ae16eff5fc62a4bfa1f10876efa24af953e0069a939441ea95c616",
+      "slice": "raw/slices/ember_yearly_ecowas.csv",
+      "slice_rows": 6392,
+      "slice_sha256": "058637139dea404aaecdea82a9129faa4199c920ac420500925f3b9a6b7fe8bf"
+    },
+    {
+      "url": "https://files.ember-energy.org/public-downloads/generation/outputs/release_generation_monthly_global.csv",
+      "full_file": "ember_monthly_global.csv",
+      "full_bytes": 29477581,
+      "full_sha256": "98c12ba74eae3378ca6c5ca61219337f508cb877ec3bf4df1b20c11a935e4d64",
+      "slice": "raw/slices/ember_monthly_nigeria.csv",
+      "slice_rows": 920,
+      "slice_sha256": "180f44cfd9c93a16965f126f06cdce35c709a86451119c44d7becb6380e92649"
+    },
+    {
+      "url": "https://catalog.ourworldindata.org/garden/energy/2026-09-10/owid_energy/owid_energy.csv",
+      "full_file": "owid_energy_2026-09-10.csv",
+      "full_bytes": 14524837,
+      "full_sha256": "238177564d56b21fd40caaf9572ad8f8382421899462c68952294fcce4f2eea9",
+      "slice": "raw/slices/owid_energy_ecowas.csv",
+      "slice_rows": 997,
+      "slice_sha256": "f59b75d3ef8913dc70c1505a14f61b961e711769393d5da2b0ef3b8260d89f1b"
+    },
+    {
+      "url": "https://www.eia.gov/international/data/csv/electricity_annual.csv",
+      "full_file": "eia_electricity_annual.csv",
+      "full_bytes": 108255548,
+      "full_sha256": "d1830e20b062c8d67dc50c62117c5dc0fc73579ce57593c6bba77829a0b93b26",
+      "slice": "raw/slices/eia_electricity_ecowas.csv",
+      "slice_rows": 20148,
+      "slice_sha256": "4ec4b2a992faaaabed5e041c9fc8d9c255585949faccfbc2fa80e7546584b36b"
+    }
+  ]
+}
